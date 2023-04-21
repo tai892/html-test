@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+}
+
+
+.all {
+    display: flex;
+   
+    
+}
+.left-side {
+    width: 40vw;
+    position: fixed;
+    height: 100vh
+    
+}
+
+.right-side {
+    width: 55vw;
+    margin-left: 650px;
+    margin-right: 40px;
+}
+.right-side-1 {
+    text-align: center;
+    padding-top: 154px;
+}
+
+.right-side-1 .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.right-side-1 .text {
+    margin-top: 21px;
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+ .btn {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+ .btn:hover {
+    background-color: #aba9a2;
+    cursor: pointer;
+}
+.images {
+    display: flex;
+    gap: 15px;
+
+    
+}
+.right-side-2 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 92px;
+    margin-bottom: 46px;
+}
+.right-side-2 .images .img-1 {
+    width: 411px;
+    height: 256px;
+    margin-bottom: 10px;
+}
+
+.right-side-2 .images .img-2 {
+    width: 411px;
+    height: 695px;
+   margin-bottom: 10px;
+}
+.right-side-2 .images .img-3 {
+    width: 411px;
+    height: 274px;
+}
+
+.right-side-2 .images-2 .img-4 {
+    width: 409px;
+    height: 409px;
+    margin-bottom: 10px;
+}
+
+.right-side-2 .images-2 .img-5 {
+    width: 409px;
+    height: 271px;
+    margin-bottom: 10px;
+}
+
+.right-side-2 .images-2 .img-6 {
+    width: 409px;
+    height: 309px;
+}
+
+.right-side-3 h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #8f918a;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.right-side-3 p {
+    text-align: justify;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+.right-side-4 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #8f918a;
+    margin-top: 36px;
+    margin-bottom: 30px;
+
+}
+.right-side-4 .static-95 {
+    display: flex;
+}
+.right-side-4 .static-95-1 {
+    text-align: center;
+    font-weight: 500;
+    width: 813px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #575653;
+   
+}
+
+.right-side-4 .static-95-2 {
+    width: 65px;
+    height: 38px;
+    background-color:#d4d2cd;
+}
+
+.right-side-4 .static-95-3 {
+    text-align: center;
+    width: 713px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #575653;
+    font-weight: 500;
+
+}
+
+.right-side-4 p {
+    font-weight: 500;
+    margin: 20px 0;
+}
+.right-side-4 .static-95-4 {
+    width: 165px;
+    height: 38px;
+    background-color: #d4d2cd;
+
+}
+
+.right-side-4 .static-95-5 {
+    text-align: center;
+    width: 663px;
+    height: 38px;
+    line-height: 38px;
+    font-weight: 500;
+    background-color: #575653;
+}
+
+.right-side-4 .static-95-6 {
+    width: 215px;
+    height: 38px;
+    background-color: #d4d2cd;
+    margin-bottom: 40px;
+}
+.right-side-4 .plus {
+    justify-content: space-around;
+    width: 850px;
+    height: 114px;
+    background-color: #575653;
+    display: flex;
+}
+.right-side-4 .plus .static {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    background-color: #575653;
+    cursor: pointer;
+   
+  
+}
+.right-side-4 .plus span {
+    font-size: 30px;
+}
+.right-side-4 .btn {
+    margin: 40px 0;
+}
+
+.right-side-5 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #8f918a;
+}
+
+.right-side-5 .right-side-5-1 {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.right-side-5 .profile-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+
+}
+
+.right-side-5 .profile-info {
+    font-size: 20px;
+    font-weight: 500;
+    color: #8f918a;
+}
+
+.right-side-5 .profile-info .info {
+    margin-top: 20px;
+}
+
+.right-side-5 .profile-info span {
+    color: #000;
+}
+
+.right-side-6 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #8f918a;
+    margin-bottom: 40px;
+}
+
+.right-side-6 .table {
+    display: flex;
+    gap: 20px;
+
+}
+
+.right-side-6 .table .first-table {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    padding: 20px 172px;
+    background-color: #8f918a;
+}
+
+.right-side-6 .table .right-tb .first-table {
+    background-color: #000;
+}
+
+.right-side-6 .table .small-table {
+    font-size: 15px;
+    font-weight: 500;
+    color: #aba9a2;
+    text-align: center;
+    padding: 10px 0;
+    border: #d4d2cd 1px solid;
+
+}
+
+.right-side-6 .table .big {
+    font-size: 15px;
+    font-weight: 500;
+    color: #aba9a2;
+    text-align: center;
+    padding: 30px 0;
+    border: #d4d2cd 1px solid;
+}
+
+.right-side-6 .table span {
+    font-size: 40px;
+}
+
+.right-side-6 .table .btn {
+    color: #000;
+    border: none;
+    background-color: #fff;
+    padding: 20px 30px;
+
+}
+
+.right-side-6 .table .btn:hover {
+   
+    color: #fff;
+    background-color: #000;
+}
+
+.right-side-7 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #8f918a;
+    margin-top: 40px;
+}
+
+.right-side-7 .contact {
+    display: flex;
+    gap:20px;
+
+}
+
+.right-side-7 .contact-img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+
+.right-side-7 .contact-text {
+    margin-top: 15px;
+    color: #aba9a2;
+    font-weight: 500;
+}
+
+.right-side-7 .map {
+    width: 850px;
+    height: 450px;
+}
+
+.right-side-7 .input {
+    width: 850px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.right-side-7 .send {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #aba9a2;
+}
+
+.right-side-7 .btn {
+    margin-top: 20px;
+}
+.right-side-8 .button {
+    display: flex;
+    margin-left: 300px;
+   padding-top: 80px;
+   
+
+}
+
+.right-side-8 .tired {
+    margin-top: 30px;
+
+    width: 850px;
+    height: 200px;
+    background-color: #d4d2cd;
+    
+ 
+}
+
+
+.right-side-8 .img-btn {
+    
+    width: 30px;
+    height: 30px;
+   
+    
+}
+
+.right-side-8 .img-btn:hover {
+    opacity: 0.2;
+}
+
+.right-side-8 p {
+    font-weight: 500;
+    margin-left: 320px;
+}
